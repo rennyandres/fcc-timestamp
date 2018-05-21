@@ -1,0 +1,12 @@
+{
+  "name": "fcc-time",
+  "version": "0.1.0",
+  "description": "FreeCodeCamp's timestamp microservice project",
+  "main": "app.js",
+  "repository": "",
+  "author": "Renny Andres",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "~3.2.4"
+  }
+}
