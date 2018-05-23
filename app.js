@@ -31,8 +31,12 @@ function getUnixAndDate(date) {
     };
     
     if(dateObj === null) {
-        return 'Invalid date';
-    } else {
+        return {
+            "unix": null, 
+            "natural": null
+        }
+    } 
+    else {
         return {
             "unix": dateObj.getTime(), 
             "natural": dateObj.toLocaleDateString('en-EN', options)
