@@ -1,5 +1,5 @@
 {
-  "name": "fcc-time",
+  "name": "fcc-timestamp",
   "version": "0.1.0",
   "description": "FreeCodeCamp's timestamp microservice project",
   "main": "app.js",
